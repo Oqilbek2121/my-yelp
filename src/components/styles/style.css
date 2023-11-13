@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Noto+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.6s ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    background: rgb(17, 16, 16);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+}
+
+::selection{
+  background: rgb(0,123,255,0.3);
+  color: #fff;
+}
+
+/* main style */
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(17, 16, 16);
+}
+
+/* register style  */
+.main  .register {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.main .card {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.main .pointer {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main .activecolor {
+    padding: 20px;
+    border: 1px solid #198754;
+    border-radius: 20px;
+}
